@@ -1,0 +1,39 @@
+:root{
+  --bg-coolor:#f5f4f0;
+  --border-primary:#d9d9d9;
+  --text-primary:#1b1b1b;
+  --text-secundary:#333333;
+  --text-tertiary:#696969;
+  --text-headline:#e1624f;
+  --accent-blue:#0c51a7;
+  --accent-orange:#e95e10;
+  --accent-pink:#e5245e;
+  --accent-purple:#591b98;
+  font-family:"Open Sans", sans-serif;
+  font-size: bold;
+  font-size: 16px;
+}
+
+.history{
+
+}
+p{
+  font-size: 16px;
+}
+h1{
+  font-size: 36px;
+  font-weight: bold;
+}
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+h3{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.subtitle{
+font-size: 16px;
+font-style: italic;
+}
