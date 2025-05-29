@@ -1,39 +1,127 @@
-:root{
-  --bg-coolor:#f5f4f0;
-  --border-primary:#d9d9d9;
-  --text-primary:#1b1b1b;
-  --text-secundary:#333333;
-  --text-tertiary:#696969;
-  --text-headline:#e1624f;
-  --accent-blue:#0c51a7;
-  --accent-orange:#e95e10;
-  --accent-pink:#e5245e;
-  --accent-purple:#591b98;
-  font-family:"Open Sans", sans-serif;
-  font-size: bold;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-coolor: #f5f4f0;
+  --border-primary: #d9d9d9;
+  --text-primary: #1b1b1b;
+  --text-secundary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   font-size: 16px;
 }
 
-.history{
+body {
+  background-color: var(--bg-coolor);
+}
+
+main {
+  max-width: 1120px;
+  margin: 50PX auto;
+  padding: 0 20px;
+}
+
+/* Imagens */
+.img-sec {
+  width: 1120px;
+  border-radius: 28px;
+}
+
+.img-pri {
+  width: 1120px;
+  border-radius: 28px;
 
 }
-p{
-  font-size: 16px;
+
+/* Textos */
+.recomendation {
+  margin-top: 16px;
 }
-h1{
+
+.history {
+  color: var(--accent-blue);
+}
+
+.family {
+  color: var(--accent-pink);
+}
+
+.budget {
+  color: var(--accent-orange);
+}
+
+.couple {
+  color: var(--accent-purple);
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h1 {
   font-size: 36px;
   font-weight: bold;
+  margin-bottom: 40px;
 }
-h2{
+
+h2 {
   font-size: 32px;
   font-weight: bold;
 }
-h3{
+
+h3 {
   font-size: 28px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
-.subtitle{
-font-size: 16px;
-font-style: italic;
+h4 {
+  color: var(--text-headline);
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.subtitle {
+  font-weight: normal;
+  margin: 24px 10px 40px 10px;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Posts da pagina */
+.post {
+  margin-top: 20px;
+}
+
+.post-one {
+  margin: 64px 0;
+}
+
+/* Rodapé */
+.final-text {
+  text-align: center;
+  max-width: 1120px;
+  margin: 50PX auto;
+  padding: 0 20px;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 64px;
 }
